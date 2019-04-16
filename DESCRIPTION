@@ -1,0 +1,25 @@
+Package: sits.sampler
+Title: Shiny application for sampling time series
+Version: 0.0.0.9001
+Author: c(person('Alber', 'Sanchez', role = c('aut', 'cre'), email = 'alber.sanchez@inpe.br'))
+Maintainer: Alber Sánchez <alber.sanchez@inpe.br>
+Description: Shiny application for sampling time series to be used with the sits package.
+Depends: R (>= 3.4.0)
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+ dplyr,
+ DT,
+ leaflet,
+ ggplot2,
+ magrittr,
+ RStoolbox,
+ shiny,
+ sits,
+ tibble,
+ wtss
+Suggests: 
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
