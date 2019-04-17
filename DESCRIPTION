@@ -1,6 +1,6 @@
 Package: sits.sampler
 Title: Shiny application for sampling time series
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Author: c(person('Alber', 'Sanchez', role = c('aut', 'cre'), email = 'alber.sanchez@inpe.br'))
 Maintainer: Alber Sánchez <alber.sanchez@inpe.br>
 Description: Shiny application for sampling time series to be used with the sits package.
@@ -11,6 +11,7 @@ LazyData: true
 Imports:
  dplyr,
  DT,
+ knitr,
  leaflet,
  ggplot2,
  magrittr,
